@@ -1,8 +1,3 @@
-# Computational Thinking - P1
-# Task 1: Identity Investigation
-# Name: Aditi meena
-# File: identity_aditi.py
-
 # Integer
 a = 15
 print("Integer Before:", id(a))
@@ -18,9 +13,9 @@ print("Float After:", id(f))
 
 
 # String
-s = "Aditi"
+s = "aditi"
 print("\nString Before:", id(s))
-s = s + "Meena"
+s = s + " meena"
 print("String After:", id(s))
 
 
@@ -44,11 +39,5 @@ print("\nSet Before:", id(st))
 st.add(4)
 print("Set After:", id(st))
 
-
-
-
-
-
-
-
+print("this is version 2")
 
